@@ -64,6 +64,8 @@
 		gs.error(message);
 	}
 	
+	action.setRedirectURL(current);
+	
 })();]]></script>
         <show_insert>true</show_insert>
         <show_multiple_update>false</show_multiple_update>
