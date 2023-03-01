@@ -13,9 +13,9 @@
         <description>Setting up the connection.</description>
         <ih_action>true</ih_action>
         <internal_name>generate_draft_knowledge_article</internal_name>
-        <label_cache>[{"name":"{{action.requested_item}}","label":"action➛requested_item","type":"action","ref":"","reference_display":"Requested Item","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.loop_number}}","label":"action➛loop_number","type":"action","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.base64_image_content}}","label":"action➛base64_image_content","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.image_prompt}}","label":"action➛image_prompt","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.image_num}}","label":"action➛image_num","type":"action","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.image_size}}","label":"action➛image_size","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.image_base64}}","label":"action➛image_base64","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Object","co_type_name":"","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","uiUniqueId":"d3be2dd6-8abb-4cbe-9f2f-dd6471033070"}},{"name":"{{action.table}}","label":"action➛table","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.table_name}}","label":"action➛table","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.record_sys_id}}","label":"action➛record_sys_id","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.destination_record}}","label":"action➛destination_record","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.destination_record_sysid}}","label":"action➛sc_req_item_sysid","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"5acdb6d7-62a6-4690-9223-29d72771e341"}},{"name":"{{action.destination_record_table}}","label":"action➛destination_record_table","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.sc_req_item_sysid}}","label":"action➛sc_req_item_sysid","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.text_prompt}}","label":"action➛knowledge_article_record","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"8c4ead8f-2c46-4ae8-abdc-38c7f7bcdb4b"}},{"name":"{{action.knowledge_article_record}}","label":"action➛knowledge_article_record","type":"action","ref":"","reference_display":"Knowledge","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.knowledge_prompt}}","label":"action➛knowledge_prompt","type":"action","ref":"kb_knowledge","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[41adabe0-436a-4b71-8bac-cbbf92e49e4a].sn_auth_token}}","label":"step➛Send REST query➛Credential Value","type":"step","ref":"","reference_display":"","base_type":"password2","parent_table_name":"","column_name":"","choices":null,"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"password2","isLocal":"true"}},{"name":"{{step[23474493-6cf9-428f-9990-3f3622d49e04].root.data.data_object.url}}","label":"step➛JSON Parser step➛root➛data➛data_object➛base64_json","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[41adabe0-436a-4b71-8bac-cbbf92e49e4a].response_body}}","label":"step➛Send REST query➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[23474493-6cf9-428f-9990-3f3622d49e04].root}}","label":"step➛JSON Parser step➛root","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Object","co_type_name":"FDcb0696197c87d5901681724c6c9fadaa","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","uiUniqueId":"427cac9a-c507-4038-afbe-cd33b992a65f"}},{"name":"{{step[b8eb4977-3eb0-40d6-9112-a88cc804b1d4].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[b8eb4977-3eb0-40d6-9112-a88cc804b1d4].attachment_sys_id}}","label":"step➛Script step➛attachment_sys_id","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[a48ef7d2-13fb-4de3-a32d-00c988cf8def].sn_auth_token}}","label":"step➛REST step➛Credential Value","type":"step","ref":"","reference_display":"","base_type":"password2","parent_table_name":"","column_name":"","choices":null,"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"password2","isLocal":"true"}},{"name":"{{step[6684ce7b-ce5c-4768-beb0-5b96259a24ba].table_name}}","label":"step➛Look Up Record step➛Requested Item Table","type":"step","ref":"","reference_display":"","base_type":"table_name","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[6684ce7b-ce5c-4768-beb0-5b96259a24ba].record.sys_id}}","label":"step➛Look Up Record step➛Requested Item Record➛Sys ID","type":"step","ref":"","reference_display":"Sys ID","base_type":"GUID","parent_table_name":"sc_req_item","column_name":"sys_id","choices":null,"attributes":{}},{"name":"{{step[a342dcd3-238c-445e-9822-e27f381c661e].variable}}","label":"step➛Create image attachments➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[a342dcd3-238c-445e-9822-e27f381c661e].image_object}}","label":"step➛Create image attachments➛image_object","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[a342dcd3-238c-445e-9822-e27f381c661e].test_string}}","label":"step➛Create image attachments➛test_string","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[a342dcd3-238c-445e-9822-e27f381c661e].attachment_sys_id}}","label":"step➛Create image attachments➛attachment_sys_id","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[8ff4dfa1-6f97-4d6c-b1f7-d9d08cb900ce].root}}","label":"step➛JSON Parser step➛root","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Object","co_type_name":"FDea7d1a9a996395d04793c929f7f3d24c","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","uiUniqueId":"6423605d-8f02-46b3-9fd1-a1d397852413"}}]</label_cache>
+        <label_cache>[{"name":"{{action.requested_item}}","label":"action➛requested_item","type":"action","ref":"","reference_display":"Requested Item","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.loop_number}}","label":"action➛loop_number","type":"action","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.base64_image_content}}","label":"action➛base64_image_content","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.image_prompt}}","label":"action➛image_prompt","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.image_num}}","label":"action➛image_num","type":"action","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.image_size}}","label":"action➛image_size","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.image_base64}}","label":"action➛image_base64","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Object","co_type_name":"","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","uiUniqueId":"d3be2dd6-8abb-4cbe-9f2f-dd6471033070"}},{"name":"{{action.table}}","label":"action➛table","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.table_name}}","label":"action➛table","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.record_sys_id}}","label":"action➛record_sys_id","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.destination_record}}","label":"action➛destination_record","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.destination_record_sysid}}","label":"action➛sc_req_item_sysid","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"5acdb6d7-62a6-4690-9223-29d72771e341"}},{"name":"{{action.destination_record_table}}","label":"action➛destination_record_table","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.sc_req_item_sysid}}","label":"action➛sc_req_item_sysid","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.text_prompt}}","label":"action➛knowledge_article_record","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"8c4ead8f-2c46-4ae8-abdc-38c7f7bcdb4b"}},{"name":"{{action.knowledge_article_record}}","label":"action➛knowledge_article_record","type":"action","ref":"","reference_display":"Knowledge","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.knowledge_prompt}}","label":"action➛knowledge_prompt","type":"action","ref":"kb_knowledge","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.knowledge_one_shot}}","label":"action➛knowledge_one_shot","type":"action","ref":"","reference_display":"Knowledge","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.knowledge_one_shot.text}}","label":"action➛knowledge_one_shot➛Article body","type":"action","ref":"","reference_display":"Article body","base_type":"translated_html","parent_table_name":"kb_knowledge","column_name":"text","choices":null,"attributes":{}},{"name":"{{step[41adabe0-436a-4b71-8bac-cbbf92e49e4a].sn_auth_token}}","label":"step➛Send REST query➛Credential Value","type":"step","ref":"","reference_display":"","base_type":"password2","parent_table_name":"","column_name":"","choices":null,"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"password2","isLocal":"true"}},{"name":"{{step[23474493-6cf9-428f-9990-3f3622d49e04].root.data.data_object.url}}","label":"step➛JSON Parser step➛root➛data➛data_object➛base64_json","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[41adabe0-436a-4b71-8bac-cbbf92e49e4a].response_body}}","label":"step➛Send REST query➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[23474493-6cf9-428f-9990-3f3622d49e04].root}}","label":"step➛JSON Parser step➛root","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Object","co_type_name":"FDcb0696197c87d5901681724c6c9fadaa","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","uiUniqueId":"427cac9a-c507-4038-afbe-cd33b992a65f"}},{"name":"{{step[b8eb4977-3eb0-40d6-9112-a88cc804b1d4].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[b8eb4977-3eb0-40d6-9112-a88cc804b1d4].attachment_sys_id}}","label":"step➛Script step➛attachment_sys_id","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[a48ef7d2-13fb-4de3-a32d-00c988cf8def].sn_auth_token}}","label":"step➛REST step➛Credential Value","type":"step","ref":"","reference_display":"","base_type":"password2","parent_table_name":"","column_name":"","choices":null,"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"password2","isLocal":"true"}},{"name":"{{step[6684ce7b-ce5c-4768-beb0-5b96259a24ba].table_name}}","label":"step➛Look Up Record step➛Requested Item Table","type":"step","ref":"","reference_display":"","base_type":"table_name","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[6684ce7b-ce5c-4768-beb0-5b96259a24ba].record.sys_id}}","label":"step➛Look Up Record step➛Requested Item Record➛Sys ID","type":"step","ref":"","reference_display":"Sys ID","base_type":"GUID","parent_table_name":"sc_req_item","column_name":"sys_id","choices":null,"attributes":{}},{"name":"{{step[a342dcd3-238c-445e-9822-e27f381c661e].variable}}","label":"step➛Create image attachments➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[a342dcd3-238c-445e-9822-e27f381c661e].image_object}}","label":"step➛Create image attachments➛image_object","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[a342dcd3-238c-445e-9822-e27f381c661e].test_string}}","label":"step➛Create image attachments➛test_string","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[a342dcd3-238c-445e-9822-e27f381c661e].attachment_sys_id}}","label":"step➛Create image attachments➛attachment_sys_id","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[8ff4dfa1-6f97-4d6c-b1f7-d9d08cb900ce].root}}","label":"step➛JSON Parser step➛root","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Object","co_type_name":"FDea7d1a9a996395d04793c929f7f3d24c","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","uiUniqueId":"6423605d-8f02-46b3-9fd1-a1d397852413"}}]</label_cache>
         <master_snapshot>f44ec4182f38a5901cfed4a72799b683</master_snapshot>
-        <name>Generate Draft Knowledge Article</name>
+        <name>Generate Draft Knowledge Article Zero-Shot</name>
         <natlang/>
         <outputs/>
         <outputs/>
@@ -27,12 +27,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>8d3c88d02f38a5901cfed4a72799b634</sys_id>
-        <sys_name>Generate Draft Knowledge Article</sys_name>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_name>Generate Draft Knowledge Article Zero-Shot</sys_name>
         <sys_overrides/>
         <sys_package display_value="Knowledge Helper" source="x_417399_knowledge">316a449c2ff4a5901cfed4a72799b63a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Knowledge Helper">316a449c2ff4a5901cfed4a72799b63a</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_8d3c88d02f38a5901cfed4a72799b634</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-01 14:37:08</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -60,10 +63,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-01-30 14:24:20</sys_created_on>
         <sys_id>ce3cc8d02f38a5901cfed4a72799b65b</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-01-30 14:27:31</sys_updated_on>
-        <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FD753cc8d05138a590569ac528ada4ff46":{},"FlowDesigner:FD753cc8d05138a590569ac528ada4ff46.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"9dbd8f2a-d14f-4632-b4e6-c032991095b5\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD753cc8d05138a590569ac528ada4ff46\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"2\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON","complexObject":{}}</value>
+        <sys_updated_on>2023-02-27 21:59:23</sys_updated_on>
+        <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FD753cc8d05138a590569ac528ada4ff46":{},"FlowDesigner:FD753cc8d05138a590569ac528ada4ff46.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"9dbd8f2a-d14f-4632-b4e6-c032991095b5\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD753cc8d05138a590569ac528ada4ff46\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"2\",\"max_length\":\"65000\"}"}},"complexObject":{},"serializationFormat":"JSON"}</value>
         <variable display_value="Action Status">823cc8d02f38a5901cfed4a72799b64e</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=8d3c88d02f38a5901cfed4a72799b634"/>
@@ -105,7 +108,7 @@
     </sys_element_mapping>
     <sys_hub_step_instance action="delete_multiple" query="action=8d3c88d02f38a5901cfed4a72799b634^sys_idNOT IN3d3c88d02f38a5901cfed4a72799b6b8,e13c88d02f38a5901cfed4a72799b644"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Generate Draft Knowledge Article">8d3c88d02f38a5901cfed4a72799b634</action>
+        <action display_value="Generate Draft Knowledge Article Zero-Shot">8d3c88d02f38a5901cfed4a72799b634</action>
         <cid>8ff4dfa1-6f97-4d6c-b1f7-d9d08cb900ce</cid>
         <error_handling_type>1</error_handling_type>
         <extended_inputs/>
@@ -323,7 +326,7 @@
         <url_target/>
     </sys_documentation>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Generate Draft Knowledge Article">8d3c88d02f38a5901cfed4a72799b634</action>
+        <action display_value="Generate Draft Knowledge Article Zero-Shot">8d3c88d02f38a5901cfed4a72799b634</action>
         <cid>41adabe0-436a-4b71-8bac-cbbf92e49e4a</cid>
         <error_handling_type>1</error_handling_type>
         <extended_inputs/>
@@ -339,10 +342,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-01-30 14:24:18</sys_created_on>
         <sys_id>e13c88d02f38a5901cfed4a72799b644</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_scope display_value="Knowledge Helper">316a449c2ff4a5901cfed4a72799b63a</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-01-30 14:27:30</sys_updated_on>
+        <sys_updated_on>2023-03-01 14:34:03</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=e13c88d02f38a5901cfed4a72799b644"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -571,9 +574,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-01-30 14:24:18</sys_created_on>
         <sys_id>ed3c88d02f38a5901cfed4a72799b6ae</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-01-30 14:27:30</sys_updated_on>
+        <sys_updated_on>2023-03-01 14:34:04</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value>{"model": "text-davinci-003", "prompt": "{{action.knowledge_prompt}}", "max_tokens": 2048, "temperature": 0.9, "n": 1}</value>
     </sys_element_mapping>
@@ -848,7 +851,7 @@
         <label>knowledge_prompt</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Generate Draft Knowledge Article">8d3c88d02f38a5901cfed4a72799b634</model>
+        <model display_value="Generate Draft Knowledge Article Zero-Shot">8d3c88d02f38a5901cfed4a72799b634</model>
         <model_id>8d3c88d02f38a5901cfed4a72799b634</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_input_8d3c88d02f38a5901cfed4a72799b634</name>
@@ -935,7 +938,7 @@
         <label>Don't Treat as Error</label>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <model display_value="Generate Draft Knowledge Article">8d3c88d02f38a5901cfed4a72799b634</model>
+        <model display_value="Generate Draft Knowledge Article Zero-Shot">8d3c88d02f38a5901cfed4a72799b634</model>
         <model_id>8d3c88d02f38a5901cfed4a72799b634</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_8d3c88d02f38a5901cfed4a72799b634</name>
@@ -1022,7 +1025,7 @@
         <label>davinci_response</label>
         <mandatory>false</mandatory>
         <max_length>65000</max_length>
-        <model display_value="Generate Draft Knowledge Article">8d3c88d02f38a5901cfed4a72799b634</model>
+        <model display_value="Generate Draft Knowledge Article Zero-Shot">8d3c88d02f38a5901cfed4a72799b634</model>
         <model_id>8d3c88d02f38a5901cfed4a72799b634</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_8d3c88d02f38a5901cfed4a72799b634</name>
@@ -1109,7 +1112,7 @@
         <label>Action Status</label>
         <mandatory>false</mandatory>
         <max_length>65000</max_length>
-        <model display_value="Generate Draft Knowledge Article">8d3c88d02f38a5901cfed4a72799b634</model>
+        <model display_value="Generate Draft Knowledge Article Zero-Shot">8d3c88d02f38a5901cfed4a72799b634</model>
         <model_id>8d3c88d02f38a5901cfed4a72799b634</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_8d3c88d02f38a5901cfed4a72799b634</name>
@@ -1154,10 +1157,44 @@
     </sys_hub_action_output>
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=823cc8d02f38a5901cfed4a72799b64e"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=823cc8d02f38a5901cfed4a72799b64e"/>
-    <sys_hub_pill_compound action="delete_multiple" query="attached_to=8d3c88d02f38a5901cfed4a72799b634"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=8d3c88d02f38a5901cfed4a72799b634^sys_idNOT IN8ac9c8df2ff8a1501cfed4a72799b651,c2c9c8df2ff8a1501cfed4a72799b651"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>8d3c88d02f38a5901cfed4a72799b634</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>15be2fc8-51ee-4599-8f1d-18e3e1d4f9ca</source_ui_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-08 21:55:27</sys_created_on>
+        <sys_id>8ac9c8df2ff8a1501cfed4a72799b651</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Knowledge Helper">316a449c2ff4a5901cfed4a72799b63a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-08 21:55:27</sys_updated_on>
+        <transform_compositions>[{"id":"c98659e0c7c720105312134c95c26001","transformType":null,"transformDefinition":null,"order":0,"parameters":[{"id":null,"name":"regex","label":"Regex","order":0,"attributes":{},"value":"\\\"","type":"string","defaultValue":"","typeLabel":null,"mandatory":false,"choices":[]},{"id":null,"name":"replace_string","label":"Replace String","order":1,"attributes":{},"value":"'","type":"string","defaultValue":"","typeLabel":null,"mandatory":false,"choices":[]}]}]</transform_compositions>
+        <transform_definition_id display_value="replace_string">6f2599a0c7c720105312134c95c260fe</transform_definition_id>
+        <ui_id>678cf89a-cb62-46f1-bcd1-16e8df63e896</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>8d3c88d02f38a5901cfed4a72799b634</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{action.knowledge_one_shot.text}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-08 21:55:27</sys_created_on>
+        <sys_id>c2c9c8df2ff8a1501cfed4a72799b651</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Knowledge Helper">316a449c2ff4a5901cfed4a72799b63a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-08 21:55:27</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>15be2fc8-51ee-4599-8f1d-18e3e1d4f9ca</ui_id>
+    </sys_hub_pill_compound>
     <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=8d3c88d02f38a5901cfed4a72799b634^sys_idNOT INc23cc8d02f38a5901cfed4a72799b65e"/>
     <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
-        <action_type_id display_value="Generate Draft Knowledge Article">8d3c88d02f38a5901cfed4a72799b634</action_type_id>
+        <action_type_id display_value="Generate Draft Knowledge Article Zero-Shot">8d3c88d02f38a5901cfed4a72799b634</action_type_id>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-01-30 14:24:20</sys_created_on>
         <sys_id>c23cc8d02f38a5901cfed4a72799b65e</sys_id>
@@ -1264,19 +1301,19 @@
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_8d3c88d02f38a5901cfed4a72799b634"/>
     <sys_hub_action_plan action="delete_multiple" query="action_id=8d3c88d02f38a5901cfed4a72799b634^sys_idNOT IN9b4e88182f38a5901cfed4a72799b645"/>
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
-        <action_id display_value="Generate Draft Knowledge Article">8d3c88d02f38a5901cfed4a72799b634</action_id>
+        <action_id display_value="Generate Draft Knowledge Article Zero-Shot">8d3c88d02f38a5901cfed4a72799b634</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"9b4e88182f38a5901cfed4a72799b645","name":"plan","plan_signature":null}}</plan>
-        <snapshot>354e08182f38a5901cfed4a72799b67f</snapshot>
+        <snapshot>0ede22792f55a1901cfed4a72799b6dd</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-01-30 14:33:26</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>9b4e88182f38a5901cfed4a72799b645</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-01-30 14:33:26</sys_updated_on>
+        <sys_updated_on>2023-03-01 14:37:15</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -1290,20 +1327,20 @@
         <copied_from_name/>
         <description>Setting up the connection.</description>
         <internal_name>generate_draft_knowledge_article</internal_name>
-        <label_cache>[{"name":"{{action.requested_item}}","label":"action➛requested_item","type":"action","ref":"","reference_display":"Requested Item","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.loop_number}}","label":"action➛loop_number","type":"action","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.base64_image_content}}","label":"action➛base64_image_content","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.image_prompt}}","label":"action➛image_prompt","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.image_num}}","label":"action➛image_num","type":"action","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.image_size}}","label":"action➛image_size","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.image_base64}}","label":"action➛image_base64","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Object","co_type_name":"","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","uiUniqueId":"d3be2dd6-8abb-4cbe-9f2f-dd6471033070"}},{"name":"{{action.table}}","label":"action➛table","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.table_name}}","label":"action➛table","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.record_sys_id}}","label":"action➛record_sys_id","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.destination_record}}","label":"action➛destination_record","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.destination_record_sysid}}","label":"action➛sc_req_item_sysid","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"5acdb6d7-62a6-4690-9223-29d72771e341"}},{"name":"{{action.destination_record_table}}","label":"action➛destination_record_table","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.sc_req_item_sysid}}","label":"action➛sc_req_item_sysid","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.text_prompt}}","label":"action➛knowledge_article_record","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"8c4ead8f-2c46-4ae8-abdc-38c7f7bcdb4b"}},{"name":"{{action.knowledge_article_record}}","label":"action➛knowledge_article_record","type":"action","ref":"","reference_display":"Knowledge","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.knowledge_prompt}}","label":"action➛knowledge_prompt","type":"action","ref":"kb_knowledge","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[41adabe0-436a-4b71-8bac-cbbf92e49e4a].sn_auth_token}}","label":"step➛Send REST query➛Credential Value","type":"step","ref":"","reference_display":"","base_type":"password2","parent_table_name":"","column_name":"","choices":null,"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"password2","isLocal":"true"}},{"name":"{{step[23474493-6cf9-428f-9990-3f3622d49e04].root.data.data_object.url}}","label":"step➛JSON Parser step➛root➛data➛data_object➛base64_json","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[41adabe0-436a-4b71-8bac-cbbf92e49e4a].response_body}}","label":"step➛Send REST query➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[23474493-6cf9-428f-9990-3f3622d49e04].root}}","label":"step➛JSON Parser step➛root","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Object","co_type_name":"FDcb0696197c87d5901681724c6c9fadaa","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","uiUniqueId":"427cac9a-c507-4038-afbe-cd33b992a65f"}},{"name":"{{step[b8eb4977-3eb0-40d6-9112-a88cc804b1d4].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[b8eb4977-3eb0-40d6-9112-a88cc804b1d4].attachment_sys_id}}","label":"step➛Script step➛attachment_sys_id","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[a48ef7d2-13fb-4de3-a32d-00c988cf8def].sn_auth_token}}","label":"step➛REST step➛Credential Value","type":"step","ref":"","reference_display":"","base_type":"password2","parent_table_name":"","column_name":"","choices":null,"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"password2","isLocal":"true"}},{"name":"{{step[6684ce7b-ce5c-4768-beb0-5b96259a24ba].table_name}}","label":"step➛Look Up Record step➛Requested Item Table","type":"step","ref":"","reference_display":"","base_type":"table_name","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[6684ce7b-ce5c-4768-beb0-5b96259a24ba].record.sys_id}}","label":"step➛Look Up Record step➛Requested Item Record➛Sys ID","type":"step","ref":"","reference_display":"Sys ID","base_type":"GUID","parent_table_name":"sc_req_item","column_name":"sys_id","choices":null,"attributes":{}},{"name":"{{step[a342dcd3-238c-445e-9822-e27f381c661e].variable}}","label":"step➛Create image attachments➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[a342dcd3-238c-445e-9822-e27f381c661e].image_object}}","label":"step➛Create image attachments➛image_object","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[a342dcd3-238c-445e-9822-e27f381c661e].test_string}}","label":"step➛Create image attachments➛test_string","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[a342dcd3-238c-445e-9822-e27f381c661e].attachment_sys_id}}","label":"step➛Create image attachments➛attachment_sys_id","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[8ff4dfa1-6f97-4d6c-b1f7-d9d08cb900ce].root}}","label":"step➛JSON Parser step➛root","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Object","co_type_name":"FDea7d1a9a996395d04793c929f7f3d24c","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","uiUniqueId":"6423605d-8f02-46b3-9fd1-a1d397852413"}}]</label_cache>
+        <label_cache>[{"name":"{{action.requested_item}}","label":"action➛requested_item","type":"action","ref":"","reference_display":"Requested Item","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.loop_number}}","label":"action➛loop_number","type":"action","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.base64_image_content}}","label":"action➛base64_image_content","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.image_prompt}}","label":"action➛image_prompt","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.image_num}}","label":"action➛image_num","type":"action","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.image_size}}","label":"action➛image_size","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.image_base64}}","label":"action➛image_base64","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Object","co_type_name":"","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","uiUniqueId":"d3be2dd6-8abb-4cbe-9f2f-dd6471033070"}},{"name":"{{action.table}}","label":"action➛table","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.table_name}}","label":"action➛table","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.record_sys_id}}","label":"action➛record_sys_id","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.destination_record}}","label":"action➛destination_record","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.destination_record_sysid}}","label":"action➛sc_req_item_sysid","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"5acdb6d7-62a6-4690-9223-29d72771e341"}},{"name":"{{action.destination_record_table}}","label":"action➛destination_record_table","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.sc_req_item_sysid}}","label":"action➛sc_req_item_sysid","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.text_prompt}}","label":"action➛knowledge_article_record","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"8c4ead8f-2c46-4ae8-abdc-38c7f7bcdb4b"}},{"name":"{{action.knowledge_article_record}}","label":"action➛knowledge_article_record","type":"action","ref":"","reference_display":"Knowledge","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.knowledge_prompt}}","label":"action➛knowledge_prompt","type":"action","ref":"kb_knowledge","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.knowledge_one_shot}}","label":"action➛knowledge_one_shot","type":"action","ref":"","reference_display":"Knowledge","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.knowledge_one_shot.text}}","label":"action➛knowledge_one_shot➛Article body","type":"action","ref":"","reference_display":"Article body","base_type":"translated_html","parent_table_name":"kb_knowledge","column_name":"text","choices":null,"attributes":{}},{"name":"{{step[41adabe0-436a-4b71-8bac-cbbf92e49e4a].sn_auth_token}}","label":"step➛Send REST query➛Credential Value","type":"step","ref":"","reference_display":"","base_type":"password2","parent_table_name":"","column_name":"","choices":null,"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"password2","isLocal":"true"}},{"name":"{{step[23474493-6cf9-428f-9990-3f3622d49e04].root.data.data_object.url}}","label":"step➛JSON Parser step➛root➛data➛data_object➛base64_json","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[41adabe0-436a-4b71-8bac-cbbf92e49e4a].response_body}}","label":"step➛Send REST query➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[23474493-6cf9-428f-9990-3f3622d49e04].root}}","label":"step➛JSON Parser step➛root","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Object","co_type_name":"FDcb0696197c87d5901681724c6c9fadaa","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","uiUniqueId":"427cac9a-c507-4038-afbe-cd33b992a65f"}},{"name":"{{step[b8eb4977-3eb0-40d6-9112-a88cc804b1d4].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[b8eb4977-3eb0-40d6-9112-a88cc804b1d4].attachment_sys_id}}","label":"step➛Script step➛attachment_sys_id","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[a48ef7d2-13fb-4de3-a32d-00c988cf8def].sn_auth_token}}","label":"step➛REST step➛Credential Value","type":"step","ref":"","reference_display":"","base_type":"password2","parent_table_name":"","column_name":"","choices":null,"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"password2","isLocal":"true"}},{"name":"{{step[6684ce7b-ce5c-4768-beb0-5b96259a24ba].table_name}}","label":"step➛Look Up Record step➛Requested Item Table","type":"step","ref":"","reference_display":"","base_type":"table_name","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[6684ce7b-ce5c-4768-beb0-5b96259a24ba].record.sys_id}}","label":"step➛Look Up Record step➛Requested Item Record➛Sys ID","type":"step","ref":"","reference_display":"Sys ID","base_type":"GUID","parent_table_name":"sc_req_item","column_name":"sys_id","choices":null,"attributes":{}},{"name":"{{step[a342dcd3-238c-445e-9822-e27f381c661e].variable}}","label":"step➛Create image attachments➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[a342dcd3-238c-445e-9822-e27f381c661e].image_object}}","label":"step➛Create image attachments➛image_object","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[a342dcd3-238c-445e-9822-e27f381c661e].test_string}}","label":"step➛Create image attachments➛test_string","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[a342dcd3-238c-445e-9822-e27f381c661e].attachment_sys_id}}","label":"step➛Create image attachments➛attachment_sys_id","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[8ff4dfa1-6f97-4d6c-b1f7-d9d08cb900ce].root}}","label":"step➛JSON Parser step➛root","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Object","co_type_name":"FDea7d1a9a996395d04793c929f7f3d24c","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","uiUniqueId":"6423605d-8f02-46b3-9fd1-a1d397852413"}}]</label_cache>
         <master>true</master>
-        <name>Generate Draft Knowledge Article</name>
+        <name>Generate Draft Knowledge Article Zero-Shot</name>
         <natlang/>
         <outputs/>
         <outputs/>
-        <parent_action display_value="Generate Draft Knowledge Article">8d3c88d02f38a5901cfed4a72799b634</parent_action>
+        <parent_action display_value="Generate Draft Knowledge Article Zero-Shot">8d3c88d02f38a5901cfed4a72799b634</parent_action>
         <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-01-30 14:33:16</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f44ec4182f38a5901cfed4a72799b683</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1311,7 +1348,7 @@
         <sys_scope display_value="Knowledge Helper">316a449c2ff4a5901cfed4a72799b63a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-01-30 14:33:16</sys_updated_on>
+        <sys_updated_on>2023-03-01 14:37:06</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
@@ -1325,10 +1362,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-01-30 14:33:19</sys_created_on>
         <sys_id>654e08182f38a5901cfed4a72799b67c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-01-30 14:33:19</sys_updated_on>
-        <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"1d1f8b72-e996-48f4-81b1-2550b80e6d7f\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}}}</value>
+        <sys_updated_on>2023-03-01 14:37:08</sys_updated_on>
+        <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"1d1f8b72-e996-48f4-81b1-2550b80e6d7f\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"serializationFormat":"JSON"}</value>
         <variable display_value="Action Status">e14e08182f38a5901cfed4a72799b66f</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1384,7 +1421,7 @@
     </sys_element_mapping>
     <sys_hub_step_instance action="delete_multiple" query="action=f44ec4182f38a5901cfed4a72799b683^sys_idNOT IN894ec4182f38a5901cfed4a72799b69a,994e08182f38a5901cfed4a72799b64c"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Generate Draft Knowledge Article">f44ec4182f38a5901cfed4a72799b683</action>
+        <action display_value="Generate Draft Knowledge Article Zero-Shot">f44ec4182f38a5901cfed4a72799b683</action>
         <cid>41adabe0-436a-4b71-8bac-cbbf92e49e4a</cid>
         <error_handling_type>1</error_handling_type>
         <extended_inputs/>
@@ -1400,10 +1437,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-01-30 14:33:17</sys_created_on>
         <sys_id>894ec4182f38a5901cfed4a72799b69a</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="Knowledge Helper">316a449c2ff4a5901cfed4a72799b63a</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-01-30 14:33:17</sys_updated_on>
+        <sys_updated_on>2023-03-01 14:37:07</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=894ec4182f38a5901cfed4a72799b69a"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1632,9 +1669,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-01-30 14:33:17</sys_created_on>
         <sys_id>954ec4182f38a5901cfed4a72799b6df</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-01-30 14:33:17</sys_updated_on>
+        <sys_updated_on>2023-03-01 14:37:07</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value>{"model": "text-davinci-003", "prompt": "{{action.knowledge_prompt}}", "max_tokens": 2048, "temperature": 0.9, "n": 1}</value>
     </sys_element_mapping>
@@ -1869,7 +1906,7 @@
         <url_target/>
     </sys_documentation>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Generate Draft Knowledge Article">f44ec4182f38a5901cfed4a72799b683</action>
+        <action display_value="Generate Draft Knowledge Article Zero-Shot">f44ec4182f38a5901cfed4a72799b683</action>
         <cid>8ff4dfa1-6f97-4d6c-b1f7-d9d08cb900ce</cid>
         <error_handling_type>1</error_handling_type>
         <extended_inputs/>
@@ -2127,7 +2164,7 @@
         <label>knowledge_prompt</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Generate Draft Knowledge Article">f44ec4182f38a5901cfed4a72799b683</model>
+        <model display_value="Generate Draft Knowledge Article Zero-Shot">f44ec4182f38a5901cfed4a72799b683</model>
         <model_id>f44ec4182f38a5901cfed4a72799b683</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_input_f44ec4182f38a5901cfed4a72799b683</name>
@@ -2214,7 +2251,7 @@
         <label>davinci_response</label>
         <mandatory>false</mandatory>
         <max_length>65000</max_length>
-        <model display_value="Generate Draft Knowledge Article">f44ec4182f38a5901cfed4a72799b683</model>
+        <model display_value="Generate Draft Knowledge Article Zero-Shot">f44ec4182f38a5901cfed4a72799b683</model>
         <model_id>f44ec4182f38a5901cfed4a72799b683</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_f44ec4182f38a5901cfed4a72799b683</name>
@@ -2301,7 +2338,7 @@
         <label>Action Status</label>
         <mandatory>false</mandatory>
         <max_length>65000</max_length>
-        <model display_value="Generate Draft Knowledge Article">f44ec4182f38a5901cfed4a72799b683</model>
+        <model display_value="Generate Draft Knowledge Article Zero-Shot">f44ec4182f38a5901cfed4a72799b683</model>
         <model_id>f44ec4182f38a5901cfed4a72799b683</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_f44ec4182f38a5901cfed4a72799b683</name>
@@ -2388,7 +2425,7 @@
         <label>Don't Treat as Error</label>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <model display_value="Generate Draft Knowledge Article">f44ec4182f38a5901cfed4a72799b683</model>
+        <model display_value="Generate Draft Knowledge Article Zero-Shot">f44ec4182f38a5901cfed4a72799b683</model>
         <model_id>f44ec4182f38a5901cfed4a72799b683</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_f44ec4182f38a5901cfed4a72799b683</name>
@@ -2433,10 +2470,44 @@
     </sys_hub_action_output>
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=e14e08182f38a5901cfed4a72799b673"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=e14e08182f38a5901cfed4a72799b673"/>
-    <sys_hub_pill_compound action="delete_multiple" query="attached_to=f44ec4182f38a5901cfed4a72799b683"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=f44ec4182f38a5901cfed4a72799b683^sys_idNOT IN13c90cdf2ff8a1501cfed4a72799b6c3,d3c90cdf2ff8a1501cfed4a72799b6c3"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>f44ec4182f38a5901cfed4a72799b683</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>15be2fc8-51ee-4599-8f1d-18e3e1d4f9ca</source_ui_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-08 21:55:32</sys_created_on>
+        <sys_id>13c90cdf2ff8a1501cfed4a72799b6c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Knowledge Helper">316a449c2ff4a5901cfed4a72799b63a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-08 21:55:32</sys_updated_on>
+        <transform_compositions>[{"id":"c98659e0c7c720105312134c95c26001","transformType":null,"transformDefinition":null,"order":0,"parameters":[{"id":null,"name":"regex","label":"Regex","order":0,"attributes":{},"value":"\\\"","type":"string","defaultValue":"","typeLabel":null,"mandatory":false,"choices":[]},{"id":null,"name":"replace_string","label":"Replace String","order":1,"attributes":{},"value":"'","type":"string","defaultValue":"","typeLabel":null,"mandatory":false,"choices":[]}]}]</transform_compositions>
+        <transform_definition_id display_value="replace_string">6f2599a0c7c720105312134c95c260fe</transform_definition_id>
+        <ui_id>678cf89a-cb62-46f1-bcd1-16e8df63e896</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>f44ec4182f38a5901cfed4a72799b683</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{action.knowledge_one_shot.text}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-08 21:55:32</sys_created_on>
+        <sys_id>d3c90cdf2ff8a1501cfed4a72799b6c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Knowledge Helper">316a449c2ff4a5901cfed4a72799b63a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-08 21:55:32</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>15be2fc8-51ee-4599-8f1d-18e3e1d4f9ca</ui_id>
+    </sys_hub_pill_compound>
     <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=f44ec4182f38a5901cfed4a72799b683^sys_idNOT IN6d4e08182f38a5901cfed4a72799b67e"/>
     <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
-        <action_type_id display_value="Generate Draft Knowledge Article">f44ec4182f38a5901cfed4a72799b683</action_type_id>
+        <action_type_id display_value="Generate Draft Knowledge Article Zero-Shot">f44ec4182f38a5901cfed4a72799b683</action_type_id>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-01-30 14:33:19</sys_created_on>
         <sys_id>6d4e08182f38a5901cfed4a72799b67e</sys_id>
@@ -2544,6 +2615,6 @@
     <sys_hub_action_type_definition action="UPDATE">
         <sys_id>8d3c88d02f38a5901cfed4a72799b634</sys_id>
         <latest_snapshot>f44ec4182f38a5901cfed4a72799b683</latest_snapshot>
-        <compiler_build>glide-tokyo-07-08-2022__patch1-09-01-2022_09-16-2022_1610.zip</compiler_build>
+        <compiler_build>glide-utah-12-21-2022__patch0-01-18-2023_01-18-2023_1907.zip</compiler_build>
     </sys_hub_action_type_definition>
 </record_update>

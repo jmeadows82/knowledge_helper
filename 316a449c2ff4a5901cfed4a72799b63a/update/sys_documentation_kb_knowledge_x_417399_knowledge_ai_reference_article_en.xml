@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="x_417399_knowledge_ai_reference_article" label="AI Reference Article" language="en" table="kb_knowledge">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>x_417399_knowledge_ai_reference_article</element>
+            <help/>
+            <hint/>
+            <label>AI Reference Article</label>
+            <language>en</language>
+            <name>kb_knowledge</name>
+            <plural>AI Reference Articles</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-01 16:06:01</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>AI Reference Article</sys_name>
+            <sys_package display_value="Knowledge Helper" source="x_417399_knowledge">316a449c2ff4a5901cfed4a72799b63a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Knowledge Helper">316a449c2ff4a5901cfed4a72799b63a</sys_scope>
+            <sys_update_name>sys_documentation_kb_knowledge_x_417399_knowledge_ai_reference_article_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-01 16:06:01</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

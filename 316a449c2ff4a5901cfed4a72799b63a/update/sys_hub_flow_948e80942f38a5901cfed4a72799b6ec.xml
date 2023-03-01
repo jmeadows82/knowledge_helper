@@ -10,9 +10,9 @@
         <copied_from_name/>
         <description>Creates a text prompt and requests a draft knowledge article from OpenAI's GPT-3.</description>
         <internal_name>knowledge_helper</internal_name>
-        <label_cache>[{"name":"3b3f7f0e-6232-4212-8526-16b8712e587d.davinci_response","label":"2 - Generate Draft Knowledge Article➛davinci_response","reference_display":"davinci_response","type":"object","base_type":"object","attributes":{"sourceId":"8ff4dfa1-6f97-4d6c-b1f7-d9d08cb900ce","uiTypeLabel":"Object","co_type_name":"FD214e08180e38a590553daf6fc6967f5b","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceType":"step","sourceUiUniqueId":"6423605d-8f02-46b3-9fd1-a1d397852413","uiType":"object","uiUniqueId":"02d5d4f6-1ebe-4564-a140-c81100763b5f"}},{"name":"3b3f7f0e-6232-4212-8526-16b8712e587d.__action_status__","label":"2 - Generate Draft Knowledge Article➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"9dbd8f2a-d14f-4632-b4e6-c032991095b5"}},{"name":"3b3f7f0e-6232-4212-8526-16b8712e587d.__dont_treat_as_error__","label":"2 - Generate Draft Knowledge Article➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"09a9154f-979b-4137-91b4-8f463df65ce5"}},{"name":"flow_variable.text_prompt","label":"Flow Variables➛text_prompt","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"d13790db-f7a9-47a9-8ea3-916df63f93aa"}},{"name":"3b3f7f0e-6232-4212-8526-16b8712e587d.davinci_response.choices","label":"2 - Generate Draft Knowledge Article➛davinci_response➛choices","reference":"","reference_display":"","type":"array.object","base_type":"array.object","column_name":"","attributes":{}},{"name":"51c7311f-c3c5-4fb1-be4e-1292f4f58eba.item","label":"3 - For Each➛choices_object","reference_display":"choices_object","type":"object","base_type":"object","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"be0f5f6d-b287-4ea2-8b98-9d7ec4b2dd31.record","label":"5 - Update Record➛Knowledge Record","reference":"kb_knowledge","reference_display":"Knowledge","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"be0f5f6d-b287-4ea2-8b98-9d7ec4b2dd31.table_name","label":"5 - Update Record➛Knowledge Table","reference":"kb_knowledge","reference_display":"Knowledge","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"be0f5f6d-b287-4ea2-8b98-9d7ec4b2dd31.__action_status__","label":"5 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"be0f5f6d-b287-4ea2-8b98-9d7ec4b2dd31.__dont_treat_as_error__","label":"5 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"subflow.knowledge_record","label":"Input➛knowledge_record","reference":"kb_knowledge","reference_display":"Knowledge","type":"reference","base_type":"reference","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"25628da9-700b-4b74-8537-a195eeb9e81d"}},{"name":"51c7311f-c3c5-4fb1-be4e-1292f4f58eba.item.text","label":"3 - For Each➛choices_object➛text","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"flow_variable.clean_response","label":"Flow Variables➛clean_response","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"e9c54222-c59b-4e5f-8ea7-5dde059becde"}}]</label_cache>
+        <label_cache>[{"name":"flow_variable.clean_response","label":"Flow Variables➛clean_response","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"e9c54222-c59b-4e5f-8ea7-5dde059becde"}},{"name":"51c7311f-c3c5-4fb1-be4e-1292f4f58eba.item.text","label":"3➛choices_object➛text","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"subflow.knowledge_record","label":"Input➛knowledge_record","reference":"kb_knowledge","reference_display":"Knowledge","type":"reference","base_type":"reference","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"25628da9-700b-4b74-8537-a195eeb9e81d"}},{"name":"be0f5f6d-b287-4ea2-8b98-9d7ec4b2dd31.__dont_treat_as_error__","label":"5 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"be0f5f6d-b287-4ea2-8b98-9d7ec4b2dd31.__action_status__","label":"5 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"be0f5f6d-b287-4ea2-8b98-9d7ec4b2dd31.table_name","label":"5 - Update Record➛Knowledge Table","reference":"kb_knowledge","reference_display":"Knowledge","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"be0f5f6d-b287-4ea2-8b98-9d7ec4b2dd31.record","label":"5 - Update Record➛Knowledge Record","reference":"kb_knowledge","reference_display":"Knowledge","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"51c7311f-c3c5-4fb1-be4e-1292f4f58eba.item","label":"3 - For Each➛choices_object","reference_display":"choices_object","type":"object","base_type":"object","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"3b3f7f0e-6232-4212-8526-16b8712e587d.davinci_response.choices","label":"2➛davinci_response➛choices","reference":"","reference_display":"","type":"array.object","base_type":"array.object","column_name":"","attributes":{}},{"name":"flow_variable.text_prompt","label":"Flow Variables➛text_prompt","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"d13790db-f7a9-47a9-8ea3-916df63f93aa"}},{"name":"3b3f7f0e-6232-4212-8526-16b8712e587d.__dont_treat_as_error__","label":"2 - Generate Draft Knowledge Article Zero-Shot➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"09a9154f-979b-4137-91b4-8f463df65ce5"}},{"name":"3b3f7f0e-6232-4212-8526-16b8712e587d.__action_status__","label":"2 - Generate Draft Knowledge Article Zero-Shot➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"9dbd8f2a-d14f-4632-b4e6-c032991095b5"}},{"name":"3b3f7f0e-6232-4212-8526-16b8712e587d.davinci_response","label":"2 - Generate Draft Knowledge Article Zero-Shot➛davinci_response","reference_display":"davinci_response","type":"object","base_type":"object","attributes":{"sourceId":"8ff4dfa1-6f97-4d6c-b1f7-d9d08cb900ce","uiTypeLabel":"Object","co_type_name":"FD214e08180e38a590553daf6fc6967f5b","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceType":"step","sourceUiUniqueId":"6423605d-8f02-46b3-9fd1-a1d397852413","uiType":"object","uiUniqueId":"02d5d4f6-1ebe-4564-a140-c81100763b5f"}}]</label_cache>
         <master_snapshot>2c40145c2f38a5901cfed4a72799b6b4</master_snapshot>
-        <name>Knowledge Helper</name>
+        <name>Knowledge Helper Zero-Shot</name>
         <natlang/>
         <outputs/>
         <pre_compiled>false</pre_compiled>
@@ -29,12 +29,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>948e80942f38a5901cfed4a72799b6ec</sys_id>
-        <sys_name>Knowledge Helper</sys_name>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Knowledge Helper Zero-Shot</sys_name>
         <sys_overrides/>
         <sys_package display_value="Knowledge Helper" source="x_417399_knowledge">316a449c2ff4a5901cfed4a72799b63a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Knowledge Helper">316a449c2ff4a5901cfed4a72799b63a</sys_scope>
         <sys_update_name>sys_hub_flow_948e80942f38a5901cfed4a72799b6ec</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-01 15:21:33</sys_updated_on>
         <type>subflow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=948e80942f38a5901cfed4a72799b6ec"/>
@@ -95,7 +98,7 @@
         <label>knowledge_record</label>
         <mandatory>true</mandatory>
         <max_length>32</max_length>
-        <model display_value="Knowledge Helper">948e80942f38a5901cfed4a72799b6ec</model>
+        <model display_value="Knowledge Helper Zero-Shot">948e80942f38a5901cfed4a72799b6ec</model>
         <model_id>948e80942f38a5901cfed4a72799b6ec</model_id>
         <model_table>sys_hub_flow</model_table>
         <name>var__m_sys_hub_flow_input_948e80942f38a5901cfed4a72799b6ec</name>
@@ -144,25 +147,37 @@
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
-        <action_type display_value="Generate Draft Knowledge Article">f44ec4182f38a5901cfed4a72799b683</action_type>
+        <action_type display_value="Generate Draft Knowledge Article Zero-Shot">f44ec4182f38a5901cfed4a72799b683</action_type>
         <action_type_parent/>
         <comment/>
         <display_text/>
-        <flow display_value="Knowledge Helper">948e80942f38a5901cfed4a72799b6ec</flow>
+        <flow display_value="Knowledge Helper Zero-Shot">948e80942f38a5901cfed4a72799b6ec</flow>
         <order>2</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-01-30 14:41:56</sys_created_on>
         <sys_id>3b30145c2f38a5901cfed4a72799b61e</sys_id>
-        <sys_mod_count>32</sys_mod_count>
+        <sys_mod_count>54</sys_mod_count>
         <sys_scope display_value="Knowledge Helper">316a449c2ff4a5901cfed4a72799b63a</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2023-01-30 15:21:23</sys_updated_on>
+        <sys_updated_on>2023-03-01 15:31:49</sys_updated_on>
         <ui_id>3b3f7f0e-6232-4212-8526-16b8712e587d</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=3b30145c2f38a5901cfed4a72799b61e"/>
     <sys_element_mapping action="delete_multiple" query="id=3b30145c2f38a5901cfed4a72799b61e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>knowledge_one_shot</field>
+        <id>3b30145c2f38a5901cfed4a72799b61e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-08 21:44:13</sys_created_on>
+        <sys_id>6937005b2ff8a1501cfed4a72799b67b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-27 21:46:54</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f44ec4182f38a5901cfed4a72799b683</table>
+        <value/>
+    </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>knowledge_prompt</field>
         <id>3b30145c2f38a5901cfed4a72799b61e</id>
@@ -184,17 +199,17 @@
         <action_type_parent/>
         <comment/>
         <display_text/>
-        <flow display_value="Knowledge Helper">948e80942f38a5901cfed4a72799b6ec</flow>
+        <flow display_value="Knowledge Helper Zero-Shot">948e80942f38a5901cfed4a72799b6ec</flow>
         <order>5</order>
         <parent_ui_id>51c7311f-c3c5-4fb1-be4e-1292f4f58eba</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-01-30 14:41:57</sys_created_on>
         <sys_id>8440145c2f38a5901cfed4a72799b628</sys_id>
-        <sys_mod_count>32</sys_mod_count>
+        <sys_mod_count>54</sys_mod_count>
         <sys_scope display_value="Knowledge Helper">316a449c2ff4a5901cfed4a72799b63a</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2023-01-30 15:21:23</sys_updated_on>
+        <sys_updated_on>2023-03-01 15:31:49</sys_updated_on>
         <ui_id>be0f5f6d-b287-4ea2-8b98-9d7ec4b2dd31</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=8440145c2f38a5901cfed4a72799b628"/>
@@ -261,7 +276,7 @@
         <decision_table_inputs/>
         <display_text/>
         <extended_inputs/>
-        <flow display_value="Knowledge Helper">948e80942f38a5901cfed4a72799b6ec</flow>
+        <flow display_value="Knowledge Helper Zero-Shot">948e80942f38a5901cfed4a72799b6ec</flow>
         <flow_variable/>
         <flow_variables_assigned/>
         <inputs/>
@@ -275,10 +290,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-01-30 14:41:56</sys_created_on>
         <sys_id>4840145c2f38a5901cfed4a72799b621</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>23</sys_mod_count>
         <sys_scope display_value="Knowledge Helper">316a449c2ff4a5901cfed4a72799b63a</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-01-30 15:20:46</sys_updated_on>
+        <sys_updated_on>2023-03-01 15:21:33</sys_updated_on>
         <ui_id>51c7311f-c3c5-4fb1-be4e-1292f4f58eba</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -308,7 +323,7 @@
         <decision_table_inputs/>
         <display_text/>
         <extended_inputs/>
-        <flow display_value="Knowledge Helper">948e80942f38a5901cfed4a72799b6ec</flow>
+        <flow display_value="Knowledge Helper Zero-Shot">948e80942f38a5901cfed4a72799b6ec</flow>
         <flow_variable/>
         <flow_variables_assigned>text_prompt</flow_variables_assigned>
         <inputs/>
@@ -321,10 +336,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-01-30 14:41:56</sys_created_on>
         <sys_id>7330d05c2f38a5901cfed4a72799b6e9</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_scope display_value="Knowledge Helper">316a449c2ff4a5901cfed4a72799b63a</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-01-30 15:20:45</sys_updated_on>
+        <sys_updated_on>2023-03-01 15:21:33</sys_updated_on>
         <ui_id>84426e00-85b0-4026-9acf-b9a59981e6cb</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -354,7 +369,7 @@
         <decision_table_inputs/>
         <display_text/>
         <extended_inputs/>
-        <flow display_value="Knowledge Helper">948e80942f38a5901cfed4a72799b6ec</flow>
+        <flow display_value="Knowledge Helper Zero-Shot">948e80942f38a5901cfed4a72799b6ec</flow>
         <flow_variable/>
         <flow_variables_assigned>clean_response</flow_variables_assigned>
         <inputs/>
@@ -367,10 +382,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-01-30 15:16:49</sys_created_on>
         <sys_id>b638dc102fb8a5901cfed4a72799b628</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_scope display_value="Knowledge Helper">316a449c2ff4a5901cfed4a72799b63a</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-01-30 15:20:46</sys_updated_on>
+        <sys_updated_on>2023-03-01 15:21:33</sys_updated_on>
         <ui_id>db56bfb9-28c3-403a-a68b-9ac4c3979333</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -388,9 +403,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-01-30 15:16:49</sys_created_on>
         <sys_id>b638dc102fb8a5901cfed4a72799b629</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-01-30 15:20:21</sys_updated_on>
+        <sys_updated_on>2023-03-01 15:21:19</sys_updated_on>
     </sys_hub_input_scripts>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=948e80942f38a5901cfed4a72799b6ec^sys_idNOT IN048398542f78a5901cfed4a72799b6ec,048398542f78a5901cfed4a72799b6f9"/>
     <sys_hub_pill_compound action="INSERT_OR_UPDATE">
@@ -468,7 +483,7 @@
         <label>clean_response</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Knowledge Helper">948e80942f38a5901cfed4a72799b6ec</model>
+        <model display_value="Knowledge Helper Zero-Shot">948e80942f38a5901cfed4a72799b6ec</model>
         <model_id>948e80942f38a5901cfed4a72799b6ec</model_id>
         <model_table>sys_hub_flow</model_table>
         <name>var__m_sys_hub_flow_variable_948e80942f38a5901cfed4a72799b6ec</name>
@@ -551,7 +566,7 @@
         <label>text_prompt</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Knowledge Helper">948e80942f38a5901cfed4a72799b6ec</model>
+        <model display_value="Knowledge Helper Zero-Shot">948e80942f38a5901cfed4a72799b6ec</model>
         <model_id>948e80942f38a5901cfed4a72799b6ec</model_id>
         <model_table>sys_hub_flow</model_table>
         <name>var__m_sys_hub_flow_variable_948e80942f38a5901cfed4a72799b6ec</name>
@@ -625,18 +640,18 @@
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=948e80942f38a5901cfed4a72799b6ec^sys_idNOT INfe40d45c2f38a5901cfed4a72799b679"/>
     <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_subflow_plan","id":"fe40d45c2f38a5901cfed4a72799b679","name":"plan","plan_signature":null}}</plan>
-        <plan_id display_value="Knowledge Helper">948e80942f38a5901cfed4a72799b6ec</plan_id>
-        <snapshot>69499cd02fb8a5901cfed4a72799b67e</snapshot>
+        <plan_id display_value="Knowledge Helper Zero-Shot">948e80942f38a5901cfed4a72799b6ec</plan_id>
+        <snapshot>475bb2392fd5a1901cfed4a72799b606</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-01-30 14:42:08</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>fe40d45c2f38a5901cfed4a72799b679</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-01-30 15:20:45</sys_updated_on>
+        <sys_updated_on>2023-03-01 15:21:33</sys_updated_on>
     </sys_flow_subflow_plan>
     <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -649,12 +664,12 @@
         <copied_from_name/>
         <description>Creates a text prompt and requests a draft knowledge article from OpenAI's GPT-3.</description>
         <internal_name>knowledge_helper</internal_name>
-        <label_cache>[{"name":"3b3f7f0e-6232-4212-8526-16b8712e587d.davinci_response","label":"2 - Generate Draft Knowledge Article➛davinci_response","reference_display":"davinci_response","type":"object","base_type":"object","attributes":{"sourceId":"8ff4dfa1-6f97-4d6c-b1f7-d9d08cb900ce","uiTypeLabel":"Object","co_type_name":"FD214e08180e38a590553daf6fc6967f5b","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceType":"step","sourceUiUniqueId":"6423605d-8f02-46b3-9fd1-a1d397852413","uiType":"object","uiUniqueId":"02d5d4f6-1ebe-4564-a140-c81100763b5f"}},{"name":"3b3f7f0e-6232-4212-8526-16b8712e587d.__action_status__","label":"2 - Generate Draft Knowledge Article➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"9dbd8f2a-d14f-4632-b4e6-c032991095b5"}},{"name":"3b3f7f0e-6232-4212-8526-16b8712e587d.__dont_treat_as_error__","label":"2 - Generate Draft Knowledge Article➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"09a9154f-979b-4137-91b4-8f463df65ce5"}},{"name":"flow_variable.text_prompt","label":"Flow Variables➛text_prompt","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"d13790db-f7a9-47a9-8ea3-916df63f93aa"}},{"name":"3b3f7f0e-6232-4212-8526-16b8712e587d.davinci_response.choices","label":"2 - Generate Draft Knowledge Article➛davinci_response➛choices","reference":"","reference_display":"","type":"array.object","base_type":"array.object","column_name":"","attributes":{}},{"name":"51c7311f-c3c5-4fb1-be4e-1292f4f58eba.item","label":"3 - For Each➛choices_object","reference_display":"choices_object","type":"object","base_type":"object","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"be0f5f6d-b287-4ea2-8b98-9d7ec4b2dd31.record","label":"5 - Update Record➛Knowledge Record","reference":"kb_knowledge","reference_display":"Knowledge","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"be0f5f6d-b287-4ea2-8b98-9d7ec4b2dd31.table_name","label":"5 - Update Record➛Knowledge Table","reference":"kb_knowledge","reference_display":"Knowledge","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"be0f5f6d-b287-4ea2-8b98-9d7ec4b2dd31.__action_status__","label":"5 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"be0f5f6d-b287-4ea2-8b98-9d7ec4b2dd31.__dont_treat_as_error__","label":"5 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"subflow.knowledge_record","label":"Input➛knowledge_record","reference":"kb_knowledge","reference_display":"Knowledge","type":"reference","base_type":"reference","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"25628da9-700b-4b74-8537-a195eeb9e81d"}},{"name":"51c7311f-c3c5-4fb1-be4e-1292f4f58eba.item.text","label":"3 - For Each➛choices_object➛text","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"flow_variable.clean_response","label":"Flow Variables➛clean_response","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"e9c54222-c59b-4e5f-8ea7-5dde059becde"}}]</label_cache>
+        <label_cache>[{"name":"flow_variable.clean_response","label":"Flow Variables➛clean_response","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"e9c54222-c59b-4e5f-8ea7-5dde059becde"}},{"name":"51c7311f-c3c5-4fb1-be4e-1292f4f58eba.item.text","label":"3➛choices_object➛text","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"subflow.knowledge_record","label":"Input➛knowledge_record","reference":"kb_knowledge","reference_display":"Knowledge","type":"reference","base_type":"reference","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"25628da9-700b-4b74-8537-a195eeb9e81d"}},{"name":"be0f5f6d-b287-4ea2-8b98-9d7ec4b2dd31.__dont_treat_as_error__","label":"5 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"be0f5f6d-b287-4ea2-8b98-9d7ec4b2dd31.__action_status__","label":"5 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"be0f5f6d-b287-4ea2-8b98-9d7ec4b2dd31.table_name","label":"5 - Update Record➛Knowledge Table","reference":"kb_knowledge","reference_display":"Knowledge","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"be0f5f6d-b287-4ea2-8b98-9d7ec4b2dd31.record","label":"5 - Update Record➛Knowledge Record","reference":"kb_knowledge","reference_display":"Knowledge","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"51c7311f-c3c5-4fb1-be4e-1292f4f58eba.item","label":"3 - For Each➛choices_object","reference_display":"choices_object","type":"object","base_type":"object","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"3b3f7f0e-6232-4212-8526-16b8712e587d.davinci_response.choices","label":"2➛davinci_response➛choices","reference":"","reference_display":"","type":"array.object","base_type":"array.object","column_name":"","attributes":{}},{"name":"flow_variable.text_prompt","label":"Flow Variables➛text_prompt","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"d13790db-f7a9-47a9-8ea3-916df63f93aa"}},{"name":"3b3f7f0e-6232-4212-8526-16b8712e587d.__dont_treat_as_error__","label":"2 - Generate Draft Knowledge Article Zero-Shot➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"09a9154f-979b-4137-91b4-8f463df65ce5"}},{"name":"3b3f7f0e-6232-4212-8526-16b8712e587d.__action_status__","label":"2 - Generate Draft Knowledge Article Zero-Shot➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"9dbd8f2a-d14f-4632-b4e6-c032991095b5"}},{"name":"3b3f7f0e-6232-4212-8526-16b8712e587d.davinci_response","label":"2 - Generate Draft Knowledge Article Zero-Shot➛davinci_response","reference_display":"davinci_response","type":"object","base_type":"object","attributes":{"sourceId":"8ff4dfa1-6f97-4d6c-b1f7-d9d08cb900ce","uiTypeLabel":"Object","co_type_name":"FD214e08180e38a590553daf6fc6967f5b","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceType":"step","sourceUiUniqueId":"6423605d-8f02-46b3-9fd1-a1d397852413","uiType":"object","uiUniqueId":"02d5d4f6-1ebe-4564-a140-c81100763b5f"}}]</label_cache>
         <master>true</master>
-        <name>Knowledge Helper</name>
+        <name>Knowledge Helper Zero-Shot</name>
         <natlang/>
         <outputs/>
-        <parent_flow display_value="Knowledge Helper">948e80942f38a5901cfed4a72799b6ec</parent_flow>
+        <parent_flow display_value="Knowledge Helper Zero-Shot">948e80942f38a5901cfed4a72799b6ec</parent_flow>
         <remote_trigger_id/>
         <run_as>system</run_as>
         <run_with_roles/>
@@ -666,7 +681,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>2c40145c2f38a5901cfed4a72799b6b4</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -674,7 +689,7 @@
         <sys_scope display_value="Knowledge Helper">316a449c2ff4a5901cfed4a72799b63a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-01-30 15:20:41</sys_updated_on>
+        <sys_updated_on>2023-03-01 15:21:27</sys_updated_on>
         <type>subflow</type>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=2c40145c2f38a5901cfed4a72799b6b4"/>
@@ -735,7 +750,7 @@
         <label>knowledge_record</label>
         <mandatory>true</mandatory>
         <max_length>32</max_length>
-        <model display_value="Knowledge Helper">2c40145c2f38a5901cfed4a72799b6b4</model>
+        <model display_value="Knowledge Helper Zero-Shot">2c40145c2f38a5901cfed4a72799b6b4</model>
         <model_id>2c40145c2f38a5901cfed4a72799b6b4</model_id>
         <model_table>sys_hub_flow_snapshot</model_table>
         <name>var__m_sys_hub_flow_input_2c40145c2f38a5901cfed4a72799b6b4</name>
@@ -788,17 +803,17 @@
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
         <comment/>
         <display_text/>
-        <flow display_value="Knowledge Helper">2c40145c2f38a5901cfed4a72799b6b4</flow>
+        <flow display_value="Knowledge Helper Zero-Shot">2c40145c2f38a5901cfed4a72799b6b4</flow>
         <order>5</order>
         <parent_ui_id>51c7311f-c3c5-4fb1-be4e-1292f4f58eba</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-01-30 14:42:05</sys_created_on>
         <sys_id>0e40945c2f38a5901cfed4a72799b677</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>34</sys_mod_count>
         <sys_scope display_value="Knowledge Helper">316a449c2ff4a5901cfed4a72799b63a</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-01-30 15:20:41</sys_updated_on>
+        <sys_updated_on>2023-03-01 15:21:27</sys_updated_on>
         <ui_id>be0f5f6d-b287-4ea2-8b98-9d7ec4b2dd31</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=0e40945c2f38a5901cfed4a72799b677"/>
@@ -858,25 +873,37 @@
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
-        <action_type display_value="Generate Draft Knowledge Article">f44ec4182f38a5901cfed4a72799b683</action_type>
-        <action_type_parent display_value="Generate Draft Knowledge Article">8d3c88d02f38a5901cfed4a72799b634</action_type_parent>
+        <action_type display_value="Generate Draft Knowledge Article Zero-Shot">f44ec4182f38a5901cfed4a72799b683</action_type>
+        <action_type_parent display_value="Generate Draft Knowledge Article Zero-Shot">8d3c88d02f38a5901cfed4a72799b634</action_type_parent>
         <comment/>
         <display_text/>
-        <flow display_value="Knowledge Helper">2c40145c2f38a5901cfed4a72799b6b4</flow>
+        <flow display_value="Knowledge Helper Zero-Shot">2c40145c2f38a5901cfed4a72799b6b4</flow>
         <order>2</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-01-30 14:42:05</sys_created_on>
         <sys_id>4640945c2f38a5901cfed4a72799b670</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>34</sys_mod_count>
         <sys_scope display_value="Knowledge Helper">316a449c2ff4a5901cfed4a72799b63a</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-01-30 15:20:40</sys_updated_on>
+        <sys_updated_on>2023-03-01 15:21:27</sys_updated_on>
         <ui_id>3b3f7f0e-6232-4212-8526-16b8712e587d</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=4640945c2f38a5901cfed4a72799b670"/>
     <sys_element_mapping action="delete_multiple" query="id=4640945c2f38a5901cfed4a72799b670"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>knowledge_one_shot</field>
+        <id>4640945c2f38a5901cfed4a72799b670</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-08 21:44:20</sys_created_on>
+        <sys_id>5337c05b2ff8a1501cfed4a72799b631</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-08 21:44:20</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f44ec4182f38a5901cfed4a72799b683</table>
+        <value>{{7dd4d0bc-c4f1-4e54-9c9c-2a4fc150cbc6.Record}}</value>
+    </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>knowledge_prompt</field>
         <id>4640945c2f38a5901cfed4a72799b670</id>
@@ -901,7 +928,7 @@
         <decision_table_inputs/>
         <display_text/>
         <extended_inputs/>
-        <flow display_value="Knowledge Helper">2c40145c2f38a5901cfed4a72799b6b4</flow>
+        <flow display_value="Knowledge Helper Zero-Shot">2c40145c2f38a5901cfed4a72799b6b4</flow>
         <flow_variable/>
         <flow_variables_assigned>text_prompt</flow_variables_assigned>
         <inputs/>
@@ -914,10 +941,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-01-30 14:42:03</sys_created_on>
         <sys_id>6540945c2f38a5901cfed4a72799b615</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_scope display_value="Knowledge Helper">316a449c2ff4a5901cfed4a72799b63a</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-01-30 15:20:40</sys_updated_on>
+        <sys_updated_on>2023-03-01 15:21:27</sys_updated_on>
         <ui_id>84426e00-85b0-4026-9acf-b9a59981e6cb</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -947,7 +974,7 @@
         <decision_table_inputs/>
         <display_text/>
         <extended_inputs/>
-        <flow display_value="Knowledge Helper">2c40145c2f38a5901cfed4a72799b6b4</flow>
+        <flow display_value="Knowledge Helper Zero-Shot">2c40145c2f38a5901cfed4a72799b6b4</flow>
         <flow_variable/>
         <flow_variables_assigned/>
         <inputs/>
@@ -961,10 +988,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-01-30 14:42:04</sys_created_on>
         <sys_id>7940945c2f38a5901cfed4a72799b659</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_scope display_value="Knowledge Helper">316a449c2ff4a5901cfed4a72799b63a</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-01-30 15:20:41</sys_updated_on>
+        <sys_updated_on>2023-03-01 15:21:27</sys_updated_on>
         <ui_id>51c7311f-c3c5-4fb1-be4e-1292f4f58eba</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -994,7 +1021,7 @@
         <decision_table_inputs/>
         <display_text/>
         <extended_inputs/>
-        <flow display_value="Knowledge Helper">2c40145c2f38a5901cfed4a72799b6b4</flow>
+        <flow display_value="Knowledge Helper Zero-Shot">2c40145c2f38a5901cfed4a72799b6b4</flow>
         <flow_variable/>
         <flow_variables_assigned>clean_response</flow_variables_assigned>
         <inputs/>
@@ -1007,10 +1034,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-01-30 15:16:57</sys_created_on>
         <sys_id>fc4810502fb8a5901cfed4a72799b68e</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_scope display_value="Knowledge Helper">316a449c2ff4a5901cfed4a72799b63a</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-01-30 15:20:41</sys_updated_on>
+        <sys_updated_on>2023-03-01 15:21:27</sys_updated_on>
         <ui_id>db56bfb9-28c3-403a-a68b-9ac4c3979333</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1028,9 +1055,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-01-30 15:16:57</sys_created_on>
         <sys_id>fc4810502fb8a5901cfed4a72799b68f</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-01-30 15:20:40</sys_updated_on>
+        <sys_updated_on>2023-03-01 15:21:26</sys_updated_on>
     </sys_hub_input_scripts>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=2c40145c2f38a5901cfed4a72799b6b4^sys_idNOT IN86831c542f78a5901cfed4a72799b6c5,c2831c542f78a5901cfed4a72799b6c5"/>
     <sys_hub_pill_compound action="INSERT_OR_UPDATE">
@@ -1108,7 +1135,7 @@
         <label>clean_response</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Knowledge Helper">2c40145c2f38a5901cfed4a72799b6b4</model>
+        <model display_value="Knowledge Helper Zero-Shot">2c40145c2f38a5901cfed4a72799b6b4</model>
         <model_id>2c40145c2f38a5901cfed4a72799b6b4</model_id>
         <model_table>sys_hub_flow_snapshot</model_table>
         <name>var__m_sys_hub_flow_variable_2c40145c2f38a5901cfed4a72799b6b4</name>
@@ -1191,7 +1218,7 @@
         <label>text_prompt</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Knowledge Helper">2c40145c2f38a5901cfed4a72799b6b4</model>
+        <model display_value="Knowledge Helper Zero-Shot">2c40145c2f38a5901cfed4a72799b6b4</model>
         <model_id>2c40145c2f38a5901cfed4a72799b6b4</model_id>
         <model_table>sys_hub_flow_snapshot</model_table>
         <name>var__m_sys_hub_flow_variable_2c40145c2f38a5901cfed4a72799b6b4</name>
@@ -1264,6 +1291,6 @@
     <sys_hub_flow action="UPDATE">
         <sys_id>948e80942f38a5901cfed4a72799b6ec</sys_id>
         <latest_snapshot>2c40145c2f38a5901cfed4a72799b6b4</latest_snapshot>
-        <compiler_build>glide-tokyo-07-08-2022__patch1-09-01-2022_09-16-2022_1610.zip</compiler_build>
+        <compiler_build>glide-utah-12-21-2022__patch0-01-18-2023_01-18-2023_1907.zip</compiler_build>
     </sys_hub_flow>
 </record_update>

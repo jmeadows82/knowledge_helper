@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>knowledge_helper</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-01 16:05:08</sys_created_on>
+        <sys_id>47f283b92f19a1901cfed4a72799b60a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Knowledge Helper</sys_name>
+        <sys_package display_value="Knowledge Helper" source="x_417399_knowledge">316a449c2ff4a5901cfed4a72799b63a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Knowledge Helper">316a449c2ff4a5901cfed4a72799b63a</sys_scope>
+        <sys_update_name>sys_ui_view_47f283b92f19a1901cfed4a72799b60a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-01 16:05:08</sys_updated_on>
+        <title>Knowledge Helper</title>
+        <user/>
+    </sys_ui_view>
+</record_update>
