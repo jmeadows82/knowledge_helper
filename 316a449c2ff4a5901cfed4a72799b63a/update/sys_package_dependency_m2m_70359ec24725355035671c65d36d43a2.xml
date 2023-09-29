@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Knowledge Management Core" source="com.glideapp.knowledge">b8bf05559d8321107fa3a4a5988b1ef6</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-29 13:50:26</sys_created_on>
+        <sys_id>70359ec24725355035671c65d36d43a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="Knowledge Helper" source="x_417399_knowledge">316a449c2ff4a5901cfed4a72799b63a</sys_package>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-29 13:50:26</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

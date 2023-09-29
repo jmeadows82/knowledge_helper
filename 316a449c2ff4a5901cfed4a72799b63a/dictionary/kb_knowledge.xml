@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element attributes="all_tables.text_index_translations=true,attachment_index=true,document_viewer_audit=all,global_search_config_handler=KnowledgeArticle,text_index_attachment_displayed=true,text_index_enable_idf=true,text_index_filter_junk=false,use_document_viewer=true" audit="true" db_object_id="a2345ae4f98211108c8bd16244dfe74a" label="Knowledge" max_length="40" name="kb_knowledge" text_index="true" type="collection">
+    <element attributes="all_tables.text_index_translations=true,attachment_index=true,document_viewer_audit=all,global_search_config_handler=KnowledgeArticle,text_index_attachment_displayed=true,text_index_enable_idf=true,text_index_filter_junk=false,use_document_viewer=true" audit="true" db_object_id="69bf85559d8321107fa3a4a5988b1e0d" label="Knowledge" max_length="40" name="kb_knowledge" text_index="true" type="collection">
         <element attributes="encode_utf8=false" label="AI Reference Article" max_length="32" name="x_417399_knowledge_ai_reference_article" reference="kb_knowledge" type="reference"/>
     </element>
 </database>

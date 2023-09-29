@@ -27,7 +27,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>fab0c6152f1d2d501cfed4a72799b620</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Generate Draft Knowledge Article One-Shot</sys_name>
         <sys_overrides/>
         <sys_package display_value="Knowledge Helper" source="x_417399_knowledge">316a449c2ff4a5901cfed4a72799b63a</sys_package>
@@ -35,7 +35,7 @@
         <sys_scope display_value="Knowledge Helper">316a449c2ff4a5901cfed4a72799b63a</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_fab0c6152f1d2d501cfed4a72799b620</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-03-01 15:17:20</sys_updated_on>
+        <sys_updated_on>2023-09-29 13:51:27</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -596,11 +596,11 @@
         <sys_created_on>2023-02-27 21:58:45</sys_created_on>
         <sys_id>13b0c6152f1d2d501cfed4a72799b699</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Credential Value</sys_name>
         <sys_package display_value="Knowledge Helper" source="x_417399_knowledge">316a449c2ff4a5901cfed4a72799b63a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Knowledge Helper">316a449c2ff4a5901cfed4a72799b63a</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_1bb0c6152f1d2d501cfed4a72799b667_sn_auth_token_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-02-27 21:58:45</sys_updated_on>
         <url/>
@@ -614,12 +614,11 @@
         <extended_outputs/>
         <icon/>
         <inputs/>
-        <inputs/>
         <label>JSON Parser step</label>
         <order>2</order>
         <outputs/>
         <section/>
-        <step_type display_value="JSON Parser">502328c387523300f917e55936cb0bf0</step_type>
+        <step_type display_value="">502328c387523300f917e55936cb0bf0</step_type>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-02-27 21:58:45</sys_created_on>
         <sys_id>27b0c6152f1d2d501cfed4a72799b6b7</sys_id>
@@ -660,7 +659,7 @@
   }
 }
 </value>
-        <variable display_value="Sample payload">d335ac0787523300f917e55936cb0b1d</variable>
+        <variable display_value="">d335ac0787523300f917e55936cb0b1d</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -674,46 +673,9 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-02-27 21:58:46</sys_updated_on>
         <value>{"name":"root","children":[{"name":"id","children":[],"type":"string","jpath":"$.id","previewValue":"cmpl-uqkvlQyYK7bGYrRHQ0eXlWi7"},{"name":"object","children":[],"type":"string","jpath":"$.object","previewValue":"text_completion"},{"name":"created","children":[],"type":"string","jpath":"$.created","previewValue":"1589478378"},{"name":"model","children":[],"type":"string","jpath":"$.model","previewValue":"text-davinci-003"},{"name":"choices","children":[{"name":"choices_object","children":[{"name":"text","children":[],"type":"string","jpath":"$.choices[*].text","previewValue":"\n\nThis is indeed a test"},{"name":"index","children":[],"type":"string","jpath":"$.choices[*].index","previewValue":"0"},{"name":"logprobs","children":[],"type":"string","jpath":"$.choices[*].logprobs","previewValue":""},{"name":"finish_reason","children":[],"type":"string","jpath":"$.choices[*].finish_reason","previewValue":"length"}],"type":"object","jpath":"$.choices[*]","previewValue":""}],"type":"array.object","jpath":"$.choices[*]","previewValue":""},{"name":"usage","children":[{"name":"prompt_tokens","children":[],"type":"string","jpath":"$.usage.prompt_tokens","previewValue":"5"},{"name":"completion_tokens","children":[],"type":"string","jpath":"$.usage.completion_tokens","previewValue":"7"},{"name":"total_tokens","children":[],"type":"string","jpath":"$.usage.total_tokens","previewValue":"12"}],"type":"object","jpath":"$.usage","previewValue":""}],"type":"object","jpath":"$","previewValue":""}</value>
-        <variable display_value="Target">4674240787523300f917e55936cb0b0e</variable>
+        <variable display_value="">4674240787523300f917e55936cb0b0e</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_27b0c6152f1d2d501cfed4a72799b6b7^id=27b0c6152f1d2d501cfed4a72799b6b7"/>
-    <sys_element_mapping action="delete_multiple" query="id=27b0c6152f1d2d501cfed4a72799b6b7"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>sample_payload</field>
-        <id>27b0c6152f1d2d501cfed4a72799b6b7</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-02-27 21:58:46</sys_created_on>
-        <sys_id>77b0c6152f1d2d501cfed4a72799b6d0</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-02-27 21:58:46</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>source_data</field>
-        <id>27b0c6152f1d2d501cfed4a72799b6b7</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-02-27 21:58:46</sys_created_on>
-        <sys_id>efb0c6152f1d2d501cfed4a72799b6cf</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-02-27 21:58:46</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
-        <value>{{step[41adabe0-436a-4b71-8bac-cbbf92e49e4a].response_body}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>target_schema</field>
-        <id>27b0c6152f1d2d501cfed4a72799b6b7</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-02-27 21:58:46</sys_created_on>
-        <sys_id>b3b0c6152f1d2d501cfed4a72799b6d0</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-02-27 21:58:46</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
-        <value/>
-    </sys_element_mapping>
     <sys_hub_step_ext_input action="delete_multiple" query="model=27b0c6152f1d2d501cfed4a72799b6b7"/>
     <sys_hub_step_ext_output action="delete_multiple" query="model=27b0c6152f1d2d501cfed4a72799b6b7^sys_idNOT INa7b0c6152f1d2d501cfed4a72799b6bd"/>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
@@ -814,11 +776,11 @@
         <sys_created_on>2023-02-27 21:58:46</sys_created_on>
         <sys_id>6fb0c6152f1d2d501cfed4a72799b6c0</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>root</sys_name>
         <sys_package display_value="Knowledge Helper" source="x_417399_knowledge">316a449c2ff4a5901cfed4a72799b63a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Knowledge Helper">316a449c2ff4a5901cfed4a72799b63a</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_27b0c6152f1d2d501cfed4a72799b6b7_root_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-02-27 21:58:46</sys_updated_on>
         <url/>
@@ -1383,11 +1345,11 @@
         <sys_created_on>2023-02-27 21:58:44</sys_created_on>
         <sys_id>5fb0c6152f1d2d501cfed4a72799b65e</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>knowledge_prompt</sys_name>
         <sys_package display_value="Knowledge Helper" source="x_417399_knowledge">316a449c2ff4a5901cfed4a72799b63a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Knowledge Helper">316a449c2ff4a5901cfed4a72799b63a</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_fab0c6152f1d2d501cfed4a72799b620_knowledge_prompt_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-02-27 21:58:44</sys_updated_on>
         <url/>
@@ -1406,11 +1368,11 @@
         <sys_created_on>2023-02-27 21:58:44</sys_created_on>
         <sys_id>9fb0c6152f1d2d501cfed4a72799b664</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>knowledge_one_shot</sys_name>
         <sys_package display_value="Knowledge Helper" source="x_417399_knowledge">316a449c2ff4a5901cfed4a72799b63a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Knowledge Helper">316a449c2ff4a5901cfed4a72799b63a</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_fab0c6152f1d2d501cfed4a72799b620_knowledge_one_shot_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-02-27 21:58:44</sys_updated_on>
         <url/>
@@ -1431,11 +1393,11 @@
         <sys_created_on>2023-02-27 21:58:47</sys_created_on>
         <sys_id>00c0c6152f1d2d501cfed4a72799b6e7</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Knowledge Helper" source="x_417399_knowledge">316a449c2ff4a5901cfed4a72799b63a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Knowledge Helper">316a449c2ff4a5901cfed4a72799b63a</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_fab0c6152f1d2d501cfed4a72799b620___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-02-27 21:58:47</sys_updated_on>
         <url/>
@@ -1454,11 +1416,11 @@
         <sys_created_on>2023-02-27 21:58:46</sys_created_on>
         <sys_id>3bb0c6152f1d2d501cfed4a72799b6e0</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Knowledge Helper" source="x_417399_knowledge">316a449c2ff4a5901cfed4a72799b63a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Knowledge Helper">316a449c2ff4a5901cfed4a72799b63a</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_fab0c6152f1d2d501cfed4a72799b620___action_status___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-02-27 21:58:46</sys_updated_on>
         <url/>
@@ -1477,11 +1439,11 @@
         <sys_created_on>2023-02-27 21:58:46</sys_created_on>
         <sys_id>f7b0c6152f1d2d501cfed4a72799b6dc</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>davinci_response</sys_name>
         <sys_package display_value="Knowledge Helper" source="x_417399_knowledge">316a449c2ff4a5901cfed4a72799b63a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Knowledge Helper">316a449c2ff4a5901cfed4a72799b63a</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_fab0c6152f1d2d501cfed4a72799b620_davinci_response_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-02-27 21:58:46</sys_updated_on>
         <url/>
@@ -2084,11 +2046,11 @@
         <sys_created_on>2023-03-01 15:17:17</sys_created_on>
         <sys_id>1e0872fd2f95a1901cfed4a72799b651</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Credential Value</sys_name>
         <sys_package display_value="Knowledge Helper" source="x_417399_knowledge">316a449c2ff4a5901cfed4a72799b63a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Knowledge Helper">316a449c2ff4a5901cfed4a72799b63a</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_060872fd2f95a1901cfed4a72799b646_sn_auth_token_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-03-01 15:17:17</sys_updated_on>
         <url/>
@@ -2102,12 +2064,11 @@
         <extended_outputs/>
         <icon/>
         <inputs/>
-        <inputs/>
         <label>JSON Parser step</label>
         <order>2</order>
         <outputs/>
         <section/>
-        <step_type display_value="JSON Parser">502328c387523300f917e55936cb0bf0</step_type>
+        <step_type display_value="">502328c387523300f917e55936cb0bf0</step_type>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-03-01 15:17:18</sys_created_on>
         <sys_id>d20872fd2f95a1901cfed4a72799b663</sys_id>
@@ -2148,7 +2109,7 @@
   }
 }
 </value>
-        <variable display_value="Sample payload">d335ac0787523300f917e55936cb0b1d</variable>
+        <variable display_value="">d335ac0787523300f917e55936cb0b1d</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -2162,46 +2123,9 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-03-01 15:17:18</sys_updated_on>
         <value>{"name":"root","children":[{"name":"id","children":[],"type":"string","jpath":"$.id","previewValue":"cmpl-uqkvlQyYK7bGYrRHQ0eXlWi7"},{"name":"object","children":[],"type":"string","jpath":"$.object","previewValue":"text_completion"},{"name":"created","children":[],"type":"string","jpath":"$.created","previewValue":"1589478378"},{"name":"model","children":[],"type":"string","jpath":"$.model","previewValue":"text-davinci-003"},{"name":"choices","children":[{"name":"choices_object","children":[{"name":"text","children":[],"type":"string","jpath":"$.choices[*].text","previewValue":"\n\nThis is indeed a test"},{"name":"index","children":[],"type":"string","jpath":"$.choices[*].index","previewValue":"0"},{"name":"logprobs","children":[],"type":"string","jpath":"$.choices[*].logprobs","previewValue":""},{"name":"finish_reason","children":[],"type":"string","jpath":"$.choices[*].finish_reason","previewValue":"length"}],"type":"object","jpath":"$.choices[*]","previewValue":""}],"type":"array.object","jpath":"$.choices[*]","previewValue":""},{"name":"usage","children":[{"name":"prompt_tokens","children":[],"type":"string","jpath":"$.usage.prompt_tokens","previewValue":"5"},{"name":"completion_tokens","children":[],"type":"string","jpath":"$.usage.completion_tokens","previewValue":"7"},{"name":"total_tokens","children":[],"type":"string","jpath":"$.usage.total_tokens","previewValue":"12"}],"type":"object","jpath":"$.usage","previewValue":""}],"type":"object","jpath":"$","previewValue":""}</value>
-        <variable display_value="Target">4674240787523300f917e55936cb0b0e</variable>
+        <variable display_value="">4674240787523300f917e55936cb0b0e</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_d20872fd2f95a1901cfed4a72799b663^id=d20872fd2f95a1901cfed4a72799b663"/>
-    <sys_element_mapping action="delete_multiple" query="id=d20872fd2f95a1901cfed4a72799b663"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>sample_payload</field>
-        <id>d20872fd2f95a1901cfed4a72799b663</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-03-01 15:17:18</sys_created_on>
-        <sys_id>2a0872fd2f95a1901cfed4a72799b687</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-03-01 15:17:18</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>source_data</field>
-        <id>d20872fd2f95a1901cfed4a72799b663</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-03-01 15:17:18</sys_created_on>
-        <sys_id>a20872fd2f95a1901cfed4a72799b687</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-03-01 15:17:18</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
-        <value>{{step[41adabe0-436a-4b71-8bac-cbbf92e49e4a].response_body}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>target_schema</field>
-        <id>d20872fd2f95a1901cfed4a72799b663</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-03-01 15:17:18</sys_created_on>
-        <sys_id>660872fd2f95a1901cfed4a72799b687</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-03-01 15:17:18</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
-        <value/>
-    </sys_element_mapping>
     <sys_hub_step_ext_input action="delete_multiple" query="model=d20872fd2f95a1901cfed4a72799b663"/>
     <sys_hub_step_ext_output action="delete_multiple" query="model=d20872fd2f95a1901cfed4a72799b663^sys_idNOT IN960872fd2f95a1901cfed4a72799b681"/>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
@@ -2302,11 +2226,11 @@
         <sys_created_on>2023-03-01 15:17:18</sys_created_on>
         <sys_id>ea0872fd2f95a1901cfed4a72799b684</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>root</sys_name>
         <sys_package display_value="Knowledge Helper" source="x_417399_knowledge">316a449c2ff4a5901cfed4a72799b63a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Knowledge Helper">316a449c2ff4a5901cfed4a72799b63a</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_d20872fd2f95a1901cfed4a72799b663_root_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-03-01 15:17:18</sys_updated_on>
         <url/>
@@ -2871,11 +2795,11 @@
         <sys_created_on>2023-03-01 15:17:17</sys_created_on>
         <sys_id>0e0872fd2f95a1901cfed4a72799b643</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>knowledge_one_shot</sys_name>
         <sys_package display_value="Knowledge Helper" source="x_417399_knowledge">316a449c2ff4a5901cfed4a72799b63a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Knowledge Helper">316a449c2ff4a5901cfed4a72799b63a</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_820872fd2f95a1901cfed4a72799b62a_knowledge_one_shot_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-03-01 15:17:17</sys_updated_on>
         <url/>
@@ -2894,11 +2818,11 @@
         <sys_created_on>2023-03-01 15:17:17</sys_created_on>
         <sys_id>ce0872fd2f95a1901cfed4a72799b631</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>knowledge_prompt</sys_name>
         <sys_package display_value="Knowledge Helper" source="x_417399_knowledge">316a449c2ff4a5901cfed4a72799b63a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Knowledge Helper">316a449c2ff4a5901cfed4a72799b63a</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_820872fd2f95a1901cfed4a72799b62a_knowledge_prompt_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-03-01 15:17:17</sys_updated_on>
         <url/>
@@ -2919,11 +2843,11 @@
         <sys_created_on>2023-03-01 15:17:19</sys_created_on>
         <sys_id>aa0872fd2f95a1901cfed4a72799b6c2</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>davinci_response</sys_name>
         <sys_package display_value="Knowledge Helper" source="x_417399_knowledge">316a449c2ff4a5901cfed4a72799b63a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Knowledge Helper">316a449c2ff4a5901cfed4a72799b63a</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_820872fd2f95a1901cfed4a72799b62a_davinci_response_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-03-01 15:17:19</sys_updated_on>
         <url/>
@@ -2942,11 +2866,11 @@
         <sys_created_on>2023-03-01 15:17:19</sys_created_on>
         <sys_id>e20872fd2f95a1901cfed4a72799b6c6</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Knowledge Helper" source="x_417399_knowledge">316a449c2ff4a5901cfed4a72799b63a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Knowledge Helper">316a449c2ff4a5901cfed4a72799b63a</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_820872fd2f95a1901cfed4a72799b62a___action_status___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-03-01 15:17:19</sys_updated_on>
         <url/>
@@ -2965,11 +2889,11 @@
         <sys_created_on>2023-03-01 15:17:19</sys_created_on>
         <sys_id>ea0872fd2f95a1901cfed4a72799b6fd</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Knowledge Helper" source="x_417399_knowledge">316a449c2ff4a5901cfed4a72799b63a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Knowledge Helper">316a449c2ff4a5901cfed4a72799b63a</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_820872fd2f95a1901cfed4a72799b62a___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-03-01 15:17:19</sys_updated_on>
         <url/>
